@@ -4,8 +4,7 @@ from PIL import Image, ImageOps
 import os, sys
 
 # change path below to point to the folder containing your images
-path = "C:/Users/malco/Dropbox/Camera Uploads/Museums/Elesecar Barnsley 2019-09/"
-#path = "C:/Users/malco/Pictures/resize/images/"
+path = "C:/Users/user/Pictures/resize/images/"
 
 dirs = os.listdir( path )
 
