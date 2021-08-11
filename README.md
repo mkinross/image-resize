@@ -1,4 +1,5 @@
 # image-resize
+
 This Python3 script will update all images in a folder and save them to a new sub-folder called 'web'.
 
 This works with images taken on an iPhone. I haven't tried other cameras.
@@ -17,3 +18,5 @@ pip install --upgrade pip
 
 If you run into 'access denied' issues, try:
 pip3 install --upgrade pip --user
+
+One other thing, make sure the script and all your images are running on your local computer. The script wont work if the script is running on your local computer, but all your images are in Dropbox or OneDrive, even if you specify the correct path.
