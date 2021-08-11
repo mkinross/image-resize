@@ -1,9 +1,9 @@
 # image-resize
-Resize all images in a folder and save to a new sub-folder called web
-
-This Python3 script will update all images in a folder and create and save to a new sub-folder called 'web'.
+This Python3 script will update all images in a folder and save them to a new sub-folder called 'web'.
 
 This works with images taken on an iPhone. I haven't tried other cameras.
+
+Sometimes on an iPhone, landscape images are stored as portrait images. This is because smartphones don't know which way is up, and rely on accerometer values which are stored in the images meta-data. There is a line of code in the script which attempts to access the meta-data, and correctly orientate the image. It doesn't always work!
 
 You need to edit the script by adding the path to your image folder. In Windows Explorer, browse to your image folder, and copy the path to the folder, then paste into the script. You will have change back slashes for forward slashes. And terminate the line with a forward slash.
 
